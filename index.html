@@ -37,6 +37,90 @@
 
 <body>
 
+    <div class="translate" hidden>
+        <!-- Begin TranslateThis Button -->
+
+        <a href="#" onclick="doGTranslate('en|en');return false;" title="English" class="gflag nturl" style="background-position:-0px -0px;"><img src="//gtranslate.net/flags/blank.png" height="16" width="16" alt="English" /></a>
+        <a href="#" onclick="doGTranslate('hi|hi');return false;" title="Hindi" class="gflag nturl" style="background-position:-200px -100px;"><img src="../img/ind.png" height="20" width="20" alt="Hindi" /></a>
+
+        <!-- translate function  styling -->
+        <style type="text/css">
+            a.gflag {
+                vertical-align: middle;
+                font-size: 16px;
+                padding: 1px 0;
+                background-repeat: no-repeat;
+                background-image: url(//gtranslate.net/flags/16.png);
+            }
+            
+            a.gflag img {
+                border: 0;
+            }
+            
+            a.gflag:hover {
+                background-image: url(//gtranslate.net/flags/16a.png);
+            }
+            
+            #goog-gt-tt {
+                display: none !important;
+            }
+            
+            .goog-te-banner-frame {
+                display: none !important;
+            }
+            
+            .goog-te-menu-value:hover {
+                text-decoration: none !important;
+            }
+            
+            body {
+                top: 0 !important;
+            }
+            
+            #google_translate_element2 {
+                display: none!important;
+            }
+            
+            -->
+        </style>
+
+        <br /><select onchange="doGTranslate(this);"><option value="">Select Language</option><option value="en|ar">Arabic</option><option value="en|zh-CN">Chinese (Simplified)</option><option value="en|zh-TW">Chinese (Traditional)</option><option value="en|en">English</option><option value="en|hi">Hindi</option><option value="en|ur">Urdu</option><option value="en|bn">Bengali</option><option value="en|gu">Gujarati</option><option value="en|kn">Kannada</option><option value="en|mr">Marathi</option><option value="en|ne">Nepali</option><option value="en|pa">Punjabi</option><option value="en|so">Somali</option><option value="en|ta">Tamil</option><option value="en|te">Telugu</option></select>
+        <div id="google_translate_element2"></div>
+        <script type="text/javascript">
+            function googleTranslateElementInit2() {
+                new google.translate.TranslateElement({
+                    pageLanguage: 'en',
+                    autoDisplay: false
+                }, 'google_translate_element2');
+            }
+        </script>
+        <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit2"></script>
+
+
+        <script type="text/javascript">
+            /* <![CDATA[ */
+            eval(function(p, a, c, k, e, r) {
+                    e = function(c) {
+                        return (c < a ? '' : e(parseInt(c / a))) + ((c = c % a) > 35 ? String.fromCharCode(c + 29) : c.toString(36))
+                    };
+                    if (!''.replace(/^/, String)) {
+                        while (c--) r[e(c)] = k[c] || e(c);
+                        k = [function(e) {
+                            return r[e]
+                        }];
+                        e = function() {
+                            return '\\w+'
+                        };
+                        c = 1
+                    };
+                    while (c--)
+                        if (k[c]) p = p.replace(new RegExp('\\b' + e(c) + '\\b', 'g'), k[c]);
+                    return p
+                }('6 7(a,b){n{4(2.9){3 c=2.9("o");c.p(b,f,f);a.q(c)}g{3 c=2.r();a.s(\'t\'+b,c)}}u(e){}}6 h(a){4(a.8)a=a.8;4(a==\'\')v;3 b=a.w(\'|\')[1];3 c;3 d=2.x(\'y\');z(3 i=0;i<d.5;i++)4(d[i].A==\'B-C-D\')c=d[i];4(2.j(\'k\')==E||2.j(\'k\').l.5==0||c.5==0||c.l.5==0){F(6(){h(a)},G)}g{c.8=b;7(c,\'m\');7(c,\'m\')}}', 43, 43, '||document|var|if|length|function|GTranslateFireEvent|value|createEvent||||||true|else|doGTranslate||getElementById|google_translate_element2|innerHTML|change|try|HTMLEvents|initEvent|dispatchEvent|createEventObject|fireEvent|on|catch|return|split|getElementsByTagName|select|for|className|goog|te|combo|null|setTimeout|500'.split('|'), 0, {}))
+                /* ]]> */
+        </script>
+
+    </div>
 
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top header-transparent">
@@ -214,8 +298,8 @@
                     <div class="col-md-6 col-lg-6 d-flex align-items-stretch mb-5 mb-lg-0">
                         <div class="icon-box" data-aos-delay="100">
                             <!-- <div class="icon"><i class="bx bx-file"></i></div> -->
-                            <h4 class="title"><a href="https://twitter.com/AdhunikP" target="_blank">Twitter Account <i style="font-size:24px" class="fa">&#xf08e;</i></a></h4>
-                            <a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/AdhunikP?ref_src=twsrc%5Etfw">Tweets by AdhunikP</a>
+                            <h4 class="title"><a href="https://twitter.com/adhunikbharatp1" target="_blank">Twitter Account <i style="font-size:24px" class="fa">&#xf08e;</i></a></h4>
+                            <a class="twitter-timeline" data-width="300" data-height="500" href="https://twitter.com/adhunikbharatp1?ref_src=twsrc%5Etfw">Tweets by AdhunikP</a>
                             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                             <!-- <iframe scrolling="yes" src="twitter.html" style="border:none; overflow:hidden; width:400px; height:600px; float:left;"></iframe> -->
 
@@ -656,16 +740,172 @@
 
                 <div class="row" data-aos-delay="200">
 
+                    <div class="col-lg-6">
+                        <iframe id="JotFormIFrame-202224065686454" title="ABP Contact Form" onload="window.parent.scrollTo(0,0)" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://form.jotform.com/202224065686454" frameborder="0"
+                            style="min-width: 100%;height:100px;border:none;" scrolling="no"></iframe>
+                        <script type="text/javascript">
+                            var ifr = document.getElementById("JotFormIFrame-202224065686454");
+                            if (window.location.href && window.location.href.indexOf("?") > -1) {
+                                var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
+                                if (ifr && get.length > 0) {
+                                    var src = ifr.src;
+                                    src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get;
+                                    ifr.src = src;
+                                }
+                            }
+                            window.handleIFrameMessage = function(e) {
+                                if (typeof e.data === 'object') {
+                                    return;
+                                }
+                                var args = e.data.split(":");
+                                if (args.length > 2) {
+                                    iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]);
+                                } else {
+                                    iframe = document.getElementById("JotFormIFrame");
+                                }
+                                if (!iframe) {
+                                    return;
+                                }
+                                switch (args[0]) {
+                                    case "scrollIntoView":
+                                        iframe.scrollIntoView();
+                                        break;
+                                    case "setHeight":
+                                        iframe.style.height = args[1] + "px";
+                                        break;
+                                    case "collapseErrorPage":
+                                        if (iframe.clientHeight > window.innerHeight) {
+                                            iframe.style.height = window.innerHeight + "px";
+                                        }
+                                        break;
+                                    case "reloadPage":
+                                        window.location.reload();
+                                        break;
+                                    case "loadScript":
+                                        var src = args[1];
+                                        if (args.length > 3) {
+                                            src = args[1] + ':' + args[2];
+                                        }
+                                        var script = document.createElement('script');
+                                        script.src = src;
+                                        script.type = 'text/javascript';
+                                        document.body.appendChild(script);
+                                        break;
+                                    case "exitFullscreen":
+                                        if (window.document.exitFullscreen) window.document.exitFullscreen();
+                                        else if (window.document.mozCancelFullScreen) window.document.mozCancelFullScreen();
+                                        else if (window.document.mozCancelFullscreen) window.document.mozCancelFullScreen();
+                                        else if (window.document.webkitExitFullscreen) window.document.webkitExitFullscreen();
+                                        else if (window.document.msExitFullscreen) window.document.msExitFullscreen();
+                                        break;
+                                }
+                                var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+                                if (isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+                                    var urls = {
+                                        "docurl": encodeURIComponent(document.URL),
+                                        "referrer": encodeURIComponent(document.referrer)
+                                    };
+                                    iframe.contentWindow.postMessage(JSON.stringify({
+                                        "type": "urls",
+                                        "value": urls
+                                    }), "*");
+                                }
+                            };
+                            if (window.addEventListener) {
+                                window.addEventListener("message", handleIFrameMessage, false);
+                            } else if (window.attachEvent) {
+                                window.attachEvent("onmessage", handleIFrameMessage);
+                            }
+                        </script>
+                    </div>
+
                     <div class="col-lg-6 ">
                         <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7276054.826905946!2d76.37699741101399!3d27.069286396019837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39994e9f7b4a09d3%3A0xf6a5476d3617249d!2sUttar%20Pradesh!5e0!3m2!1sen!2sin!4v1595962559422!5m2!1sen!2sin"
-                            frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+                            frameborder="0" style="border:0; width: 100%; height: 638px;" allowfullscreen></iframe>
                         <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7276054.826905946!2d76.37699741101399!3d27.069286396019837!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39994e9f7b4a09d3%3A0xf6a5476d3617249d!2sUttar%20Pradesh!5e0!3m2!1sen!2sin!4v1595962559422!5m2!1sen!2sin"
                             width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
 
                     </div>
 
-                    <!-- <div class="col-lg-6" >
-                        <form action="" method="post" role="form" class="php-email-form">
+                    <div class="col-lg-6">
+
+                        <!-- <iframe id="JotFormIFrame-202224065686454" title="ABP Contact Form" onload="window.parent.scrollTo(0,0)" allowtransparency="true" allowfullscreen="true" allow="geolocation; microphone; camera" src="https://form.jotform.com/202224065686454" frameborder="0"
+                            style="min-width: 100%;height:100px;border:none;" scrolling="no"></iframe>
+                        <script type="text/javascript">
+                            var ifr = document.getElementById("JotFormIFrame-202224065686454");
+                            if (window.location.href && window.location.href.indexOf("?") > -1) {
+                                var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
+                                if (ifr && get.length > 0) {
+                                    var src = ifr.src;
+                                    src = src.indexOf("?") > -1 ? src + "&" + get : src + "?" + get;
+                                    ifr.src = src;
+                                }
+                            }
+                            window.handleIFrameMessage = function(e) {
+                                if (typeof e.data === 'object') {
+                                    return;
+                                }
+                                var args = e.data.split(":");
+                                if (args.length > 2) {
+                                    iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]);
+                                } else {
+                                    iframe = document.getElementById("JotFormIFrame");
+                                }
+                                if (!iframe) {
+                                    return;
+                                }
+                                switch (args[0]) {
+                                    case "scrollIntoView":
+                                        iframe.scrollIntoView();
+                                        break;
+                                    case "setHeight":
+                                        iframe.style.height = args[1] + "px";
+                                        break;
+                                    case "collapseErrorPage":
+                                        if (iframe.clientHeight > window.innerHeight) {
+                                            iframe.style.height = window.innerHeight + "px";
+                                        }
+                                        break;
+                                    case "reloadPage":
+                                        window.location.reload();
+                                        break;
+                                    case "loadScript":
+                                        var src = args[1];
+                                        if (args.length > 3) {
+                                            src = args[1] + ':' + args[2];
+                                        }
+                                        var script = document.createElement('script');
+                                        script.src = src;
+                                        script.type = 'text/javascript';
+                                        document.body.appendChild(script);
+                                        break;
+                                    case "exitFullscreen":
+                                        if (window.document.exitFullscreen) window.document.exitFullscreen();
+                                        else if (window.document.mozCancelFullScreen) window.document.mozCancelFullScreen();
+                                        else if (window.document.mozCancelFullscreen) window.document.mozCancelFullScreen();
+                                        else if (window.document.webkitExitFullscreen) window.document.webkitExitFullscreen();
+                                        else if (window.document.msExitFullscreen) window.document.msExitFullscreen();
+                                        break;
+                                }
+                                var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+                                if (isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+                                    var urls = {
+                                        "docurl": encodeURIComponent(document.URL),
+                                        "referrer": encodeURIComponent(document.referrer)
+                                    };
+                                    iframe.contentWindow.postMessage(JSON.stringify({
+                                        "type": "urls",
+                                        "value": urls
+                                    }), "*");
+                                }
+                            };
+                            if (window.addEventListener) {
+                                window.addEventListener("message", handleIFrameMessage, false);
+                            } else if (window.attachEvent) {
+                                window.attachEvent("onmessage", handleIFrameMessage);
+                            }
+                        </script> -->
+                        <!-- <form action="" method="post" role="form" class="php-email-form">
                             <div class="form-row">
                                 <div class="col-md-6 form-group">
                                     <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -690,8 +930,8 @@
                                 <div class="sent-message">Your message has been sent. Thank you!</div>
                             </div>
                             <div class="text-center"><button type="submit">Send Message</button></div>
-                        </form>
-                    </div> -->
+                        </form> -->
+                    </div>
 
                 </div>
 
@@ -718,7 +958,7 @@
                             <strong>Email:</strong> adhunikbharatparty@gmail.com<br>
                             </p>
                             <div class="social-links mt-3">
-                                <a href="https://twitter.com/AdhunikP" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="https://twitter.com/adhunikbharatp1" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
                                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                             </div>
                         </div>
@@ -807,7 +1047,7 @@
     <script>
         new JF_FeedbackEmbedButton({
 
-            buttonText: "Get Feedback",
+            buttonText: "Queries",
             buttonFontColor: "#FFFFFF",
             buttonBackgroundColor: "#007FEF",
             buttonSide: "Bottom",
